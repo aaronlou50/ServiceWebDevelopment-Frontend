@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build"
+  },  
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
@@ -11,5 +16,8 @@
     "ngx-infinite-scroll": "^16.0.0",
     "path": "^0.12.7",
     "server": "^1.0.38"
+  },
+  "devDependencies": {
+    "@angular/cli": "^16.1.8"
   }
 }
